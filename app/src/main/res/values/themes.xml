@@ -1,0 +1,14 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.StudyBuddy" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">#03A9F1</item> <!-- 버튼 등 색 -->
+        <item name="android:colorBackground">#292F3F</item> <!-- 배경색 -->
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="android:textColor">#FFFFFF</item>
+
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.StudyBuddy" parent="Base.Theme.StudyBuddy" />
+</resources>
