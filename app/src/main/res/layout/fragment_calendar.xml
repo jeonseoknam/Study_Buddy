@@ -1,0 +1,51 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- 캘린더 뷰 -->
+    <CalendarView
+        android:id="@+id/calendar_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"/>
+
+    <!-- 선택된 날짜 표시 -->
+    <TextView
+        android:id="@+id/selected_date_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="선택된 날짜: "
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="16dp"
+        android:textSize="18sp" />
+
+    <!-- 일정 입력 필드 -->
+    <EditText
+        android:id="@+id/schedule_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="일정을 입력하세요."
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:layout_marginTop="16dp" />
+
+    <!-- 저장 버튼 -->
+    <Button
+        android:id="@+id/save_schedule_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="일정 저장"
+        android:layout_marginTop="16dp" />
+
+
+    <Button
+        android:id="@+id/schedule_list_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="일정 목록"
+        />
+
+</LinearLayout>
